@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { margin: 20px; }
+        .task-container { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Task Manager</h2>
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control" placeholder="Enter task">
+            <div class="input-group-append">
+                <button id="addTask" class="btn btn-primary">Add Task</button>
+            </div>
+        </div>
+        <ul id="taskList" class="list-group"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="taskManager.js"></script>
+</body>
+</html>
